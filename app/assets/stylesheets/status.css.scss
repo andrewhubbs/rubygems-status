@@ -128,6 +128,10 @@ span.status-partial { background: url('/assets/yellow.png') no-repeat 0px center
   margin-bottom: 20px;
   background: #FBFFCE;
   border: 1px solid #EFF2C7;
+
+  &.outage {
+    background: rgb(255, 206, 206);
+  }
 }
 
 #tweets {
